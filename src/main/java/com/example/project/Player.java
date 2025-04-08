@@ -16,6 +16,10 @@ public class Player extends Sprite {
     public int getTreasureCount(){return treasureCount;}
     public int getLives(){return numLives;}
     public boolean getWin(){return win;}
+    
+    public void setLives(int lives) {
+        numLives = lives;
+    }
 
   
     //move method should override parent class, sprite
